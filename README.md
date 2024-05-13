@@ -4,10 +4,10 @@ Portfolio Website
 This is my personal portfolio website where I showcase my work as a web developer.
 
 Features
-Homepage introducing myself
-About Me section describing my background and skills
-Projects showcase displaying my recent projects
-Contact form for inquiries and collaborations
+I am sounak Behera a Froentend Developer
+I have skills in html css and java script
+This Projects showcase and displaying my recent projects
+Contact me for inquiries and collaborations
 Technologies Used
 HTML
 CSS
