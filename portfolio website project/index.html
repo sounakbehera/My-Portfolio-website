@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Poppins.png" alt="my website logo" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            
+
+            <div class="header-text">
+                <p>Froentend Developer</p>
+                <h1> Hi, I'm <span>Sounak Behera</span> <br>
+                    from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <i class="fas fa-times" onclick="closeMenu()"></i>
+    <i class="fas fa-bars" onclick="openMenu()"></i>
+
+
+
+    <!------------------About section  ------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- 40% this part is used for image-->
+                    <img src="image/mypic.png" alt="my image">
+                </div>
+
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Welcome to my portfolio! I'm Sounak Behera, a passionate frontend developer based in India. With a Bachelor's degree in Computer Applications and a keen interest in web development, I specialize in creating visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I have experience working on various projects, from crafting responsive layouts to implementing interactive features. My journey in web development has been fueled by a relentless pursuit of excellence and a commitment to staying updated with the latest technologies and trends. I thrive in collaborative environments and am dedicated to delivering high-quality solutions that exceed client expectations. Beyond coding, I enjoy exploring new design trends and continuously honing my skills to create impactful digital experiences. Let's connect and bring your ideas to life!
+                    </p>
+
+                    <!-- 60% -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br> HTML, CSS, JavaScript, Bootstrap</li>
+                            <li><span>Backend Development</span><br> Flask, ASP.NET, Spring Boot</li>
+                            <li><span>Programming Tools</span><br> Coding skills, JavaScript, Python, C++, Github</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>YHills Company</span><br> HTML, CSS, JavaScript, Work on project with YHills
+                                Company</li>
+                            <li><span>Backend Development</span><br> Node.js, Express.js, Django</li>
+                            <li><span>Programming Tools</span><br> Work in a Company a make a project in JavaScript,
+                                Python, C++, Mysql, Github</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA</span><br> Kalahandi Bhawanipatna Vikash College 2020-2023</li>
+                            <li><span>+2 (commerce)</span><br> Kalahandi Bhawanipatna Vikash College 2018-2020</li>
+                            <li><span>10th</span><br> Bargarh Vikash School 2017-2018</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify;">
+                        "I specialize in web development, which involves creating and maintaining websites or web applications. It encompasses various tasks, including front-end development for user interface design and web design for aesthetics. I use languages like HTML, CSS, and JavaScript to build the structure, style, and interactivity of websites. Collaboration, testing, and continuous learning are key aspects of the web development process to ensure efficient and user-friendly websites."</p>
+
+                    <a target="_blank" style="font-size: 15px; color: yellow;"
+                        href="https://www.google.com/search?q=web+development&rlz=1C1UEAD_enIN1068IN1068&oq=web+deve&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBggBEEUYOTINCAIQABiDARixAxiABDINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIKCAcQABixAxiABDIHCAgQABiABDIHCAkQABiABNIBCDUyMDVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Learn
+                        More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX design</h2>
+                    <p style="text-align: justify;">
+                        I am specialize in providing top-notch UI/UX design services, creating visually appealing and
+                        user-friendly interfaces for digital products. With a keen understanding of user behavior and
+                        industry trends, I craft designs that not only look great but also enhance the overall user
+                        experience. From wireframes to prototypes, I bring concepts to life, ensuring seamless
+                        navigation and engaging interactions. Let's collaborate to elevate your digital presence with
+                        intuitive and aesthetically pleasing design solutions.</p>
+
+                    <a target="_blank" style="font-size: 15px; color: yellow;"
+                        href="https://www.google.com/search?q=UI%2FUX+Design&sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&biw=1536&bih=738&ei=cZeWZZjlBpKMseMPlKyg-A4&ved=0ahUKEwjY4cbC0cODAxUSRmwGHRQWCO8Q4dUDCBA&uact=5&oq=UI%2FUX+Design&gs_lp=Egxnd3Mtd2l6LXNlcnAiDFVJL1VYIERlc2lnbjILEAAYgAQYigUYkQIyERAAGIAEGIoFGJECGLEDGIMBMhEQABiABBiKBRiRAhixAxiDATILEAAYgAQYsQMYgwEyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI6QVQAFgAcAB4AZABAJgBqQGgAakBqgEDMC4xuAEDyAEA-AEC-AEB4gMEGAAgQYgGAQ&sclient=gws-wiz-serp">Learn
+                        More</a>
+                </div>
+                <div>
+                    <i class="fas fa-mobile-screen"></i>
+                    <h2>App Development</h2>
+                    <p style="text-align: justify;">
+                        I am specialize in providing comprehensive app development services, crafting innovative and
+                        user-centric mobile applications tailored to meet your unique business needs. From concept to
+                        deployment, I ensure a seamless development process, leveraging cutting-edge technologies to
+                        create robust and scalable solutions. Whether you're targeting iOS, Android, or cross-platform
+                        development, my expertise encompasses the full spectrum, delivering high-quality and engaging
+                        applications that resonate with your audience.</p>
+
+                    <a target="_blank" style="font-size: 15px; color: yellow;"
+                        href="https://www.google.com/search?sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&q=app+development&spell=1&sa=X&ved=2ahUKEwiqhvjA0cODAxWfSmwGHZZgCzwQBSgAegQICRAC&biw=1536&bih=738&dpr=1.25">Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-------- portfolio ------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="web development">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/my image.png" class="work-image" alt="Image 1">
+                    <img src="image/my image4.jpg" class="work-image" alt="Image 2">
+                    <img src="image/my image3.jpg" class="work-image" alt="Image 3">
+                    <div class="layer">
+                        <h3> Web Development</h3>
+                        <p>Web development involves creating and managing websites or web apps, including front-end and back-end development, and web design. Front-end focuses on user interface with HTML, CSS, and JavaScript. Back-end handles server-side programming and databases. Web design enhances aesthetics for better user experience. Successful development requires understanding user needs and staying updated with technology trends.
+                        <ul>
+                            <li style="padding-bottom: 5px;">Built a Complete website with frontend in HTML, CSS,
+                                JavaScript </li>
+                            <li style="padding-bottom: 5px;">Integrated with the YHills Company i had made project on web Development.</li>
+                            <li style="padding-bottom: 5px;">There are many types of project that i have made using html css and js..</li>
+                        </ul>
+                        </p>
+                        <a style="text-align: center;" target="_blank" href="https://www.w3schools.com/whatis/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/my image6.jpg" class="work-image" alt="Image 1">
+                    <img src="image/my image7.jpg " class="work-image" alt="Image 2">
+                    <img src="image/my image5.jpg " class="work-image" alt="Image 3">
+                    <div class="layer">
+                        <h3> UI Ux Design</h3>
+                        <p>UI/UX design focuses on creating intuitive interfaces for optimal user experience. UI design deals with visual elements like layout and typography, while UX design focuses on user interaction and usability. It involves research, prototyping, and testing to ensure user satisfaction. Effective UI/UX design enhances engagement and retention, driving the success of websites and applications.
+                        <ul>
+                            <li style="padding-bottom: 5px;">UI/UX design aims to enhance the usability, accessibility, and overall experience of websites and applications for users</li>
+                            <li style="padding-bottom: 5px;">UI design focuses on the visual aspects, including layout, typography, and color scheme, to create an aesthetically pleasing interface.</li>
+                            <li style="padding-bottom: 5px;">UX design focuses on the user journey, ensuring intuitive navigation, easy interaction, and overall satisfaction.</li>
+                        </ul>
+                        </p>
+                        <a target="_blank" style="text-align: center;"
+                            href="https://hominar.com/web-design-and-development/?msclkid=9a9c993bd83114e00443ff79f25f9ab2"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/my image10.png" class="work-image" alt="Image 1">
+                    <img src="image/my image9.png" class="work-image" alt="Image 2">
+                    <img src="image/my image11.jpg" class="work-image" alt="Image 3">
+                    <div class="layer">
+                        <h3> App Development</h3>
+                        <p>App development involves creating software for mobile devices like smartphones and tablets. It includes planning, design, development, testing, and deployment stages. Developers choose platforms like iOS or Android and use languages like Swift or Java. The process starts with defining the app's purpose and features, followed by designing its layout. Coding implements functionality, while testing ensures quality. 
+                        <ul>
+                            <li style="padding-bottom: 5px;">App developers design, build, and maintain software applications for mobile devices such as smartphones and tablets.</li>
+                            <li style="padding-bottom: 5px;">I collaborate with designers to create user-friendly interfaces and implement features using programming languages like Swift for iOS or Java for Android.</li>
+                            <li style="padding-bottom: 5px;">Developers conduct testing to ensure functionality and resolve any issues. I also stay updated on industry trends and technologies to continually improve app performance and user experience.</li>
+                        </ul>
+                        </p>
+                        <a target="_blank" style="text-align: center;"
+                            href="https://developer.android.com/get-started/overview"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:suonakbehera08@gmail.com" class="email-link">suonakbehera08@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+917681885880" class="phone-link">+91 7681885880</a></p>
+
+                <div class="social-icons">
+                    <a target="_blank" href="http://www.youtube.com/@sounakbehera4496"><i class="fab fa-youtube"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/sounak-behera-5819442a9/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="https://github.com/sounakbehera"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="#"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://twitter.com/Sounakbehera2"><i class="fab fa-twitter"></i></a>
+                </div>
+                <a href="javascript:void(0)" download class="btn btn2">Download Resume</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required />
+                    <input type="email" name="Email" placeholder="Your Email" required />
+                    <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright 2024 © Sounak Behera. All rights reserved. Made with <i class="fas fa-heart"></i> by Web Developer</p>
+    </div>
+</div>
+
+
+<!-- script  -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSawvairRZtoaXaQwgEI8kkQAevLa3nIGHgCPuZ0r6bJTCThE0KGHtCokGZ1Lva7e-Bw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 4000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
+</body>
+
+</html>
