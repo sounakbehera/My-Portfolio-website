@@ -3,7 +3,7 @@
 Portfolio Website
 This is my personal portfolio website where I showcase my work as a web developer.
 
-Features
+My Introduction
 I am sounak Behera a Froentend Developer
 I have skills in html css and java script
 This Projects showcase and displaying my recent projects
